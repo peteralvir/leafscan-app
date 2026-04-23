@@ -24,7 +24,7 @@ cd leafscan-app
 npm install
 
 # required for large model files
-git lfs install \n
+git lfs install 
 git lfs pull
 
 # run the app
