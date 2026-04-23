@@ -18,6 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Setup
 
 git clone https://github.com/peteralvir/leafscan-app.git
+
 cd leafscan-app
 
 # install dependencies
