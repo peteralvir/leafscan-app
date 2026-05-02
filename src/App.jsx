@@ -1,8 +1,8 @@
 import { useState, useRef, useCallback } from "react";
 import * as ort from "onnxruntime-web";
 
-// Point WASM to the CDN so it loads correctly in Vite
-ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.24.3/dist/";
+ort.env.wasm.wasmPaths = "/onnx-wasm/";
+ort.env.wasm.numThreads = 1;
 
 const CLASSES = [
   "Tomato Bacterial Spot",                    // 0 - Tomato_Bacterial_spot
